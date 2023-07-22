@@ -1,6 +1,6 @@
 <script setup>
+import carosol from './components/carosol.vue';
 import { ref } from 'vue'
-
 
 const allImg = {
     src: '//img.icons8.com/?size=512&id=12244&format=png',
@@ -35,6 +35,20 @@ const thredImgShow = ref(true);
             </div>
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <carosol/>
 </template>
 
 <style scoped></style>
